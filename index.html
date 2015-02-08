@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body onload="getTime()">
+   
+    <div class="notification-bar">
+       <div class="bar-bckg"></div>
+        <div class="bar-in bar-left">
+            SESTG
+        </div>
+        <div class="bar-in bar-center">
+            <span id="time-h"></span>:<span id="time-m"></span>
+        </div>
+        <div class="bar-in bar-right">
+            85%
+        </div>
+    </div>
+    
+    <div class="content">
+       
+        <div class="content-row">
+            <div class="icon-space">
+                <img src="img/android-icon.png" data-toggle="modal" data-target="#myModal" id="opis">
+                <span>Opis programov</span>
+            </div>
+            <div class="icon-space">
+                <img src="img/android-icon.png" data-toggle="modal" data-target="#myModal" id="dejavnosti">
+                <span>Interesne dejavnosti</span>
+            </div>
+            <div class="icon-space">
+                <img src="img/android-icon.png" data-toggle="modal" data-target="#myModal" id="projektni">
+                <span>Projektni teden</span>
+            </div>
+        </div>
+        
+        <div class="content-row">
+            <div class="icon-space">
+                <img src="img/android-icon.png" data-toggle="modal" data-target="#myModal" id="praksa">
+                <span>Praksa</span>
+            </div>
+            <div class="icon-space">
+                <img src="img/android-icon.png" data-toggle="modal" data-target="#myModal" id="prihodnost">
+                <span>Prihodnost</span>
+            </div>
+            <div class="icon-space">
+                <img src="img/android-icon.png" data-toggle="modal" data-target="#myModal" id="predmetnik">
+                <span>Predmetnik</span>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="dock">
+        <div class="dock-bckg"></div>
+        <div class="dock-icons">
+            <img src="img/android-icon.png" data-toggle="modal" data-target="#myModal">
+            <img src="img/android-icon.png" data-toggle="modal" data-target="#myModal">
+            <img src="img/android-icon.png" data-toggle="modal" data-target="#myModal">
+            <img src="img/qrcode.png" id="qr-button">
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" id="close-x">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body" id="myModalBody">
+            Eat shit
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="close-button">Zapri</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
