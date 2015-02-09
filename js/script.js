@@ -30,10 +30,12 @@ $(document).ready(function(){
     
     $("#close-button").mouseenter(function(){
         $("#close-button").click();
+        content.innerHTML="";
     });
     
     $("#close-x").mouseenter(function(){
         $("#close-x").click();
+        content.innerHTML="";
     });
     
     
@@ -94,5 +96,11 @@ $(document).ready(function(){
         title.innerHTML="<h3>Memes For You</h3>";
         content.innerHTML="<img style='width:100%;' src='img/meme_1.jpg'>";
         //$("#troll").click();
+    });
+    
+    $("#video").mouseenter(function(){
+        title.innerHTML="<h3>Predstavitveni video ŠCNM</h3>";
+        content.innerHTML="<iframe width='100%' height='350px' src='http://www.youtube.com/embed/FpwrhSn02mU' frameborder='0' controls='0'></iframe>";
+        //$("#video").click();
     });
 });
