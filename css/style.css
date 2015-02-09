@@ -11,6 +11,16 @@ body
     opacity:0;
 }
 
+::-moz-selection
+{
+    opacity:0;
+}
+
+::-webkit-selection
+{
+    opacity:0;
+}
+
 .notification-bar
 {
     width:100%;
