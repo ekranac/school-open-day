@@ -74,4 +74,17 @@ $(document).ready(function(){
         $("#predmetnik").click();
     });
     
+    
+    $("#qr-button").mouseenter(function(){
+        $("#qr-button").attr("src","img/scan_me.png");
+    });
+    $("#qr-button").mouseleave(function(){
+        $("#qr-button").attr("src","img/qrcode.png");
+    });
+    
+    $("#credits").mouseenter(function(){
+        title.innerHTML="Made By";
+        content.innerHTML="Credits...";
+        $("#credits").click();
+    });
 });

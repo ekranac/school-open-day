@@ -6,6 +6,11 @@ body
     margin:0;
 }
 
+::selection
+{
+    opacity:0;
+}
+
 .notification-bar
 {
     width:100%;
@@ -68,8 +73,8 @@ body
 .icon-space > img
 {
     position:relative;
-    width:180px;
-    height:180px;
+    width:210px;
+    height:210px;
     margin:0 auto;
     display:block;
     margin-top:11%;
