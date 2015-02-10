@@ -13,6 +13,7 @@
 </head>
 <body onload="getTime()">
    
+   <!-- Notification bar -->
     <div class="notification-bar">
        <div class="bar-bckg"></div>
         <div class="bar-in bar-left">
@@ -25,9 +26,11 @@
             85%
         </div>
     </div>
+    <!-- End notification bar -->
     
     <div class="content">
        
+       <!-- Top icon row -->
         <div class="content-row">
             <div class="icon-space">
                 <img src="img/android-icon.png" data-toggle="modal" data-target="#myModal" id="opis">
@@ -42,7 +45,9 @@
                 <span>Projektni teden</span>
             </div>
         </div>
+        <!-- End top icon row -->
         
+        <!-- Bottom icon row -->
         <div class="content-row" style="margin-top:-70px;">
             <div class="icon-space">
                 <img src="img/PUD_europraksa.png" data-toggle="modal" data-target="#myModal" id="praksa">
@@ -57,18 +62,21 @@
                 <span>Predmetnik</span>
             </div>
         </div>
+        <!-- End bottom icon row -->
         
     </div>
     
+    <!-- Dock -->
     <div class="dock">
         <div class="dock-bckg"></div>
         <div class="dock-icons">
             <img src="img/qrcode.png" id="qr-button">
             <img src="img/troll_icon.png" id="troll" data-toggle="modal" data-target="#myModal">
             <img src="img/play.jpeg" id="video" data-toggle="modal" data-target="#myModal">
-            <img src="img/android-icon.png" id="credits" data-toggle="modal" data-target="#myModal">
+            <img src="img/list.png" id="credits" data-toggle="modal" data-target="#myModal">
         </div>
     </div>
+    <!-- End dock -->
     
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -87,5 +95,6 @@
         </div>
       </div>
     </div>
+    <!-- End modal -->
 </body>
 </html>

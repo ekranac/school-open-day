@@ -60,7 +60,7 @@ $(document).ready(function(){
     
     $("#praksa").mouseenter(function(){
         title.innerHTML="<h3>Praksa</h3>";
-        content.innerHTML="Praksa...";
+        content.innerHTML="<div class='row'><div class='col-sm-6'><p>Praktični del izobraževanja poteka na dva načina:</p> <ul> <li>s praktičnim poukom v delavnicah,</li> <li>s praktičnim usposabljanjem pri delodajalcu.</li> </ul> <strong>PRAKTIČNI POUK V DELAVNICAH</strong> <p>Praktični del izobraževanja poteka v delavnicah, ki se nahajajo v Medpodjetniškem izobraževalnem centru – MIC. <p>Pouk je usmerjen predvsem v projektno delo, kar pomeni, da dijaki izdelajo določeno napravo (izdelek) postopno od zasnove do končne izvedbe in preizkusa.</p> <strong>PRAKTIČNO USPOSABLJANJE PRI DELODAJALCU</strong> <p>Delodajalca pomaga poiskati šola ali dijaki sami.</p></div><div class='col-sm-6'><h4>EUROPRAKSA</h4> <p>Šolski center Novo mesto omogoča tudi opravljanje EUROPRAKSE dijakov v tujini (praktično usposabljanje z delom pri delodajalcu). Dijaki se lahko prijavijo za pridobitev sredstev, ki se podeljujejo v okviru EU-programa Vseživljenjskega učenja - LEONARDO DA VINCI.</p><img src='img/EUpraksa.jpg' style='width:100%;'></div></div>";
         //$("#praksa").click();
     });
     
@@ -72,7 +72,7 @@ $(document).ready(function(){
     
     $("#predmetnik").mouseenter(function(){
         title.innerHTML="<h3>Predmetnik</h3>";
-        content.innerHTML="Predmetnik...";
+        content.innerHTML="<div class='row'><div class='col-sm-6'><h3>SPI – 3. letni program - računalnikar</h3><img style='width:100%;' src='img/gif-3.gif'></div><div class='col-sm-6'><h3>SSI - 4. letni program - tehnik računalništva</h3><img style='width:100%;' src='img/gif-4.gif'></div></div>";
         //$("#predmetnik").click();
     });
     
@@ -100,7 +100,7 @@ $(document).ready(function(){
     
     $("#video").mouseenter(function(){
         title.innerHTML="<h3>Predstavitveni video ŠCNM</h3>";
-        content.innerHTML="<iframe width='100%' height='350px' src='http://www.youtube.com/embed/FpwrhSn02mU' frameborder='0' controls='0'></iframe>";
+        content.innerHTML="<iframe width='100%' height='350px' src='http://www.youtube.com/embed/FpwrhSn02mU?rel=0&autoplay=1&controls=0&showinfo=0' frameborder='0'></iframe>";
         //$("#video").click();
     });
 });
