@@ -72,7 +72,7 @@ $(document).ready(function(){
     
     $("#predmetnik").mouseenter(function(){
         title.innerHTML="<h3>Predmetnik</h3>";
-        content.innerHTML="<div class='row'><div class='col-sm-6'><h3>SPI – 3. letni program - računalnikar</h3><img style='width:100%;' src='img/gif-3.gif'></div><div class='col-sm-6'><h3>SSI - 4. letni program - tehnik računalništva</h3><img style='width:100%;' src='img/gif-4.gif'></div></div>";
+        content.innerHTML="<div class='row'><div class='col-sm-6'><h3>SPI – 3. letni program - računalnikar</h3><img style='width:100%;' src='https://38.media.tumblr.com/0f670937e73082c1fa1a2ff128124c08/tumblr_njktcoR5731una9g6o1_400.gif'></div><div class='col-sm-6'><h3>SSI - 4. letni program - tehnik računalništva</h3><img style='width:100%;' src='https://31.media.tumblr.com/2681d8218dfcbfc8a04e6e10c9d540cd/tumblr_njktcoR5731una9g6o2_400.gif'></div></div>";
         //$("#predmetnik").click();
     });
     
