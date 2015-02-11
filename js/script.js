@@ -49,7 +49,7 @@ $(document).ready(function(){
     $("#dejavnosti").mouseenter(function(){        
         //$("#dejavnosti").click();
         title.innerHTML="<h3>Interesne dejavnosti</h3>";
-        content.innerHTML="Interesne dejavnosti...";
+        content.innerHTML="<p>Interesne dejavnosti na šolskem centru zajemajo široko območje dejavnosti. Od šolskih športnih ekip do računalniških krožkov ter različnih plesnih skupin. Udeleževanje pri njih ni obvezno, vendar omogoča druženje z ljudmi ki delijo podobna zanimanja, dobro oceno če se pri svojem delu izkažeš in seveda naklonjenost profesorjev. Dejavnosti se izvajajo po pouku in včasih tudi med njim.</p><div class='row'><div class='col-sm-6'><img src='img/dej1_opt.jpg' style='width:100%;'></div><div class='col-sm-6'><img src='img/dej3_opt.jpg' style='width:100%;'></div></div>";
     });
     
     $("#projektni").mouseenter(function(){
