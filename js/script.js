@@ -88,19 +88,21 @@ $(document).ready(function(){
     
     $("#credits").mouseenter(function(){
         title.innerHTML="<h3>Made By</h3>";
-        content.innerHTML="Credits...";
+        content.innerHTML="Predstavitvenega programa za informativni dan, ki ga trenutno uporabljate, ne bi bilo brez pomoči delavnih in entuziastičnih ljudi:<br><br><ul><li><strong>Mentorji: Prof. Dejan Čurk & prof. Miha Bradač</strong>, SEŠTG</li><li><strong>Jani Lovrin</strong>, R3B</li><li><strong>Žiga Troha</strong>, R3B</li><li><strong>Rudi Starc</strong>, R3B</li><li><strong>Žan Nahtigal</strong>, R3B</li><li><strong>Dominik Plut</strong>, R3B</li><li><strong>Blaž Brajer</strong>, R3B</li><li><strong>Žiga Besal</strong>, R3B</li></ul><p>Informativni dan 2015</p>";
         //$("#credits").click();
     });
     
     $("#troll").mouseenter(function(){
+        
+        var pic = Math.floor(Math.random() * 11) + 1;
         title.innerHTML="<h3>Memes For You</h3>";
-        content.innerHTML="<img style='width:100%;' src='img/meme_1.jpg'>";
+        content.innerHTML="<img style='width:100%; max-height:550px;' src='img/meme/" + pic + ".jpg'>";
         //$("#troll").click();
     });
     
     $("#video").mouseenter(function(){
         title.innerHTML="<h3>Predstavitveni video ŠCNM</h3>";
-        content.innerHTML="<iframe width='100%' height='350px' src='http://www.youtube.com/embed/FpwrhSn02mU?rel=0&autoplay=1&controls=0&showinfo=0' frameborder='0'></iframe>";
+        content.innerHTML="<video width='100%' height='350px' autoplay><source src='video/video.mp4'></video>";
         //$("#video").click();
     });
 });
